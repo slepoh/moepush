@@ -4,7 +4,7 @@ import { RegisterForm } from "@/components/auth/register-form";
 import { GitHubButton } from "@/components/auth/github-button";
 
 export const metadata: Metadata = {
-  title: "注册 - MoePush",
+  title: "注册 - Push",
   description: "创建新账号",
 };
 
