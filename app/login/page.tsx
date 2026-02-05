@@ -4,8 +4,8 @@ import { Suspense } from "react";
 import { LoginForm } from "@/components/auth/login-form";
 
 export const metadata: Metadata = {
-  title: "登录 - MoePush",
-  description: "登录到 MoePush",
+  title: "登录 - Push",
+  description: "登录到 Push",
 };
 
 export default function LoginPage() {
