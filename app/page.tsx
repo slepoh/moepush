@@ -18,8 +18,8 @@ export default async function Home() {
           <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center pt-14 pb-24 md:pb-32">
             <div className="inline-block rounded-full bg-blue-100 px-4 py-1.5 text-sm font-medium text-blue-600">
               <span className="inline-block animate-bounce mr-2">✨</span>
-              <Link href="https://github.com/beilunyang/moepush" target="_blank" rel="noreferrer">
-                MoePush 现已开源
+              <Link href="/moe" target="_blank" rel="noreferrer">
+                Push 免费使用
               </Link>
               <span className="inline-block animate-bounce ml-2">✨</span>
             </div>
@@ -51,7 +51,7 @@ export default async function Home() {
           <div className="mx-auto flex max-w-[64rem] flex-col items-center space-y-4 text-center">
             <Sparkles className="h-12 w-12 text-blue-500 animate-pulse" />
             <h2 className="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-6xl bg-gradient-to-r from-blue-500 to-indigo-500 text-transparent bg-clip-text">
-              萌萌哒的功能
+              功能列表
             </h2>
             <p className="max-w-[85%] leading-normal text-gray-600 sm:text-lg sm:leading-7">
               为您的应用提供强大而实用的消息推送能力
@@ -77,8 +77,8 @@ export default async function Home() {
               },
               {
                 icon: <Heart className="h-8 w-8 text-indigo-400" />,
-                title: "开源免费",
-                description: "基础功能完全免费使用，代码开源，欢迎贡献"
+                title: "免费使用",
+                description: "所有功能完全免费使用"
               }
             ].map((feature, i) => (
               <div 
@@ -162,12 +162,12 @@ export default async function Home() {
             <p className="text-center text-sm text-gray-600 md:text-left">
               Built with 💕 by{" "}
               <a
-                href="https://github.com/beilunyang"
+                href="http://cojs.cn"
                 target="_blank"
                 rel="noreferrer"
                 className="font-medium hover:text-blue-500 transition-colors"
               >
-                BeilunYang
+                易开发
               </a>
             </p>
           </div>
